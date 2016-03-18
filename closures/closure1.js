@@ -14,3 +14,20 @@ function counter(num){
 
 
 console.log(counter(15))
+
+
+var firstname = function(first){
+
+  var lastName = function(last){
+
+    return first + ' ' + last
+  }
+return lastName
+
+}
+
+var fullname = firstname('ashu');
+console.log(fullname);
+
+
+console.log(fullname('lekhi'));
