@@ -36,6 +36,53 @@ console.log(obj.name);
 console.log(obj.propertyIsEnumerable('size'));
 
 
+/*var obj = {
+  marks : [90,95,96,97,98,99],
 
+  printmarks: function(){
+    console.log(this.marks.forEach(function
+      console.log(this.marks)
+    ))
+  }
+}
+
+
+obj.printmarks();*/
+
+
+
+
+/*
+var fruit = {
+
+  name : 'apple',
+  nativeToLand: ["South America", "Central America"],
+  printName : function() {
+    console.log("This is " + this.name);
+  },
+  nativeTo : function(){
+    this.nativeToLand.forEach(print);
+  }
+}
+
+var print  = function(eachCountry){
+  console.log("Grown in:" + eachCountry);
+}
+
+
+fruit.printName();
+fruit.nativeTo();
+*/
+
+/*
+var obj  = {
+  name:'ashu',
+  adrs1 : 'pv 63',
+  one:"hello"
+}
+
+console.log(obj["name"]);
+console.log(obj["adrs" + 1]);
+*/
 
 
