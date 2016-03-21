@@ -27,3 +27,14 @@ var keys = Object.keys(obj);
 console.log('keys of object are' , keys)
 
 console.log(obj["1"]);
+
+console.log('ghfhfv',myobj.__proto__);
+
+
+var a = {
+  name : "ashu"
+}
+
+console.log(a.__proto__)
+
+
