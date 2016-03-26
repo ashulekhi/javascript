@@ -30,7 +30,7 @@ animal.prototype.voice = function(sound){
   console.log('no sound')
 }
 
-animal.prototype.name = 'general'
+//animal.prototype.name = 'general'
 function dog (){
 return 'xgdj'
 }

@@ -42,8 +42,12 @@ var person ={
   }
 }
 
+//function getName(fname,lname,cb,object){
+//  cb.apply(object,[fname,lname])
+//}
+
 function getName(fname,lname,cb,object){
-  cb.apply(object,[fname,lname])
+  cb.call(object,fname,lname)
 }
 
 

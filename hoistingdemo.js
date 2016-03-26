@@ -54,3 +54,80 @@ var i =20;
 console.log(i)
 
 console.log(i)
+
+
+
+/*var min  = 10;
+var max = 100;
+
+function demo(){
+  this.min  = 5;
+    this.max = 20;
+  this.calculate = function(){
+    setTimeout(function(){
+      console.log(this.min + 'dsd' + this.max)
+    } , 2000)
+  }
+}
+
+var obj = new demo()
+
+  obj.calculate()*/
+
+var min  = 10;
+var max = 100;
+
+function demo(){
+
+  console.log('this is so cool' , this);
+  this.min  = 5;
+  this.max = 20;
+  this.calculate = function(){
+    setTimeout(function(){
+      console.log('this in timeout' , this)
+      console.log(min + 'dsd' + max)
+    } , 2000)
+  }
+}
+
+var obj = new demo()
+
+console.log('this outside' ,  this)
+
+obj.calculate()
+
+
+function trying(name , age){
+  name1 : name
+  age1 : age
+}
+
+var try1 = new trying()
+console.log(try1.name1)
+console.log(try1.age1)
+
+var obj1 = {
+  name:'ashu'
+}
+
+console.log(obj1.name);
+console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
+console.log(b)
+//a();
+//console.log(a)
+function a(){
+  console.log(b)
+  var b = 20;
+  console.log(b)
+}
+
+a();
+
+var b = 10;
+
+
+console.log('new called ' ,  new demo())
+console.log( 'protype' , new demo().prototype);
+
+
